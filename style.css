@@ -1,0 +1,28 @@
+input
+{
+    width: 25px;
+    margin: 2px;
+}
+
+.win
+{
+    background-color: rgb(152, 247, 10);
+    border: 1px dotted black;
+}
+
+.lose
+{
+    background-color: rgb(194, 32, 32);
+    border: 1px dotted black;
+}
+
+.none
+{
+    background-color: white;
+    border: 1px dotted black;
+}
+
+body
+{
+    background-color: gray;
+}

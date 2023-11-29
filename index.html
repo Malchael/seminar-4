@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body onload="addListener()">
+    <h1>Loterie</h1>
+    <input class="none" type="text" id="in0">    
+    <input class="none" type="text" id="in1">
+    <input class="none" type="text" id="in2">
+    <input class="none" type="text" id="in3">
+    <input class="none" type="text" id="in4">
+    <button id="run" onclick="run()">Losovat</button>
+    <button id="autoInfill" onclick="autoInfill()">Necham to na Vas</button>
+    <br>
+    <input class="none" type="text" readonly id="out0">
+    <input class="none" type="text" readonly id="out1">
+    <input class="none" type="text" readonly id="out2">
+    <input class="none" type="text" readonly id="out3">
+    <input class="none" type="text" readonly id="out4">
+    <button id= "reset" onclick="reset()" disabled="disabled">Reset</button>
+</body>
+</html>
